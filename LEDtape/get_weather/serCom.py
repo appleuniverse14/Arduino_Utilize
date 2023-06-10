@@ -14,6 +14,6 @@ def serialCommunication(rain):
 
 
 if __name__ == "__main__":
-    serialCommunication()
+    serialCommunication(True)
 
 print("Hello, world!")
