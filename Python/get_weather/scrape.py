@@ -24,7 +24,7 @@ def getChanceOfRain():
             except ValueError:  # this error will raise if "val" is "--%"
                 pass
             else:
-                if chance >= 50:
+                if chance >= 60:
                     rain = True
         return rain
 
